@@ -1,6 +1,6 @@
 # pr-merge
 
-> a GitHub App built with [probot](https://github.com/probot/probot) that 
+> a [probot](https://github.com/probot/probot) app to congratulate users on pr merge and remind them to delete branch
 
 ## Setup
 
