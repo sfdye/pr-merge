@@ -3,7 +3,7 @@ module.exports = (robot) => {
     if (context.payload.pull_request.merged) {
       const branch = context.payload.pull_request.head.label
       const params = context.issue({
-        body: `Congratulations on the merge:tada Don't forget to delete the branch \`${branch}\`.`
+        body: `Congratulations on the merge :tada: Don't forget to delete the branch \`${branch}\`.`
       })
 
       try {
