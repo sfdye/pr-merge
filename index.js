@@ -8,8 +8,7 @@ module.exports = (robot) => {
 
       try {
         context.github.issues.createComment(params)
-      }
-      catch (err) {
+      } catch (err) {
         if (err.code !== 404) {
           throw err
         }
