@@ -1,0 +1,26 @@
+{
+  "event": "pull_request",
+  "payload": {
+    "action": "closed",
+    "pull_request": {
+      "number": 21,
+      "user": {
+        "login": "owner"
+      },
+      "title": "This is a pr",
+      "merged": true,
+      "head": {
+        "label": "This is a label"
+      }
+    },
+    "repository": {
+      "name": "testing-things",
+      "owner": {
+        "login": "owner"
+      }
+    },
+    "installation": {
+      "id": 35029
+    }
+  }
+}
