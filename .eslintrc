@@ -1,0 +1,38 @@
+{
+  "extends": "airbnb-base/legacy",
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "sourceType": "module"
+  },
+  "globals": {
+    "it": false,
+    "before": false,
+    "after": false,
+    "beforeEach": false,
+    "afterEach": false,
+    "describe": false,
+    "expect": false,
+    "jest": false,
+    "alert": false
+  },
+  "rules": {
+    "semi": [2, "never"],
+    "no-unused-expressions": 0,
+    "no-underscore-dangle": 0,
+    "max-len": [2, 150, 4, {"ignoreUrls": true}],
+    "new-cap": [2, { "capIsNewExceptions": ["Map", "List", "Stack", "Record", "StackNavigator", "DrawerNavigator", "TabNavigator"]}],
+    "func-names": 0,
+    "quotes": [2, "single"],
+    "no-use-before-define": [2, { "functions": false }],
+    "import/prefer-default-export": 0,
+    "global-require": 0,
+    "arrow-parens": ["error", "always"],
+    "arrow-body-style": 0,
+    "no-nested-ternary": 0,
+    "space-before-function-paren": ["error", {
+      "anonymous": "always",
+      "named": "always",
+      "asyncArrow": "always"
+    }]
+  }
+}
